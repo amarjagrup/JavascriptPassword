@@ -1,7 +1,7 @@
 # JavascriptPassword
-Generates a form that will ask for a username and password. passjs.js will create the form. passjs.js will generate a score based on the following characteristics. 
-Given a password of N total characters, where U is the number of uppercase characters, L is the number of lowercase characters, D is the number of digits, and S is the number of symbols (everything else).
-⦁	Number of characters adds (N * 4) points.
+Generates a form that will ask for a username and password. passjs.js will create the form. passjs.js will generate a score based on the following characteristics. <br>
+Given a password of N total characters, where U is the number of uppercase characters, L is the number of lowercase characters, D is the number of digits, and S is the number of symbols (everything else).<br>
+⦁	Number of characters adds (N * 4) points.<br>
 ⦁	For uppercase characters, If (U > 0) then add (N – U) * 2 points, otherwise add 0.
 ⦁	For lowercase characters, If (L > 0) then add (N – L) * 2 points, otherwise add 0.
 ⦁	If the password only contains digits, add 0 points, otherwise the number of digits adds (D * 4) points
